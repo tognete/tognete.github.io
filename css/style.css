@@ -1,0 +1,174 @@
+body {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 20px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+p a {
+  text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+h1 {
+  font-size: 80px;
+}
+.post-header h1 {
+  font-size: 50px;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #0085A1;
+}
+
+img, video {
+  display: block;
+  margin: 25px auto;
+}
+
+main {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 50%;
+}
+
+/* Navigation */
+
+.navbar-brand {
+  font-size: 25px;
+  float: left;
+  padding: 11px 13px;
+  font-weight: 1000;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  list-style-type: none;
+  float: right;
+  display: list-item; 
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover, .active {
+  background-color: rgb(105, 162, 215);
+  color: white;
+}
+
+/* Header */
+
+header {
+  color: white;
+  font-size: 20px;
+  padding: 100px 0;
+  text-align: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.post-header h1, .post-header h2, .post-header span {
+  display: block;
+  width: 40%;
+  text-align: left;
+  margin: 15px auto;
+}
+
+/* Table */
+
+table {
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+tbody th {
+  text-align: right;
+}
+
+/* Form */
+
+form section {
+  margin: 20px 0;
+}
+
+form p {
+  margin: 0;
+}
+
+form textarea {
+  display: block;
+  margin: 5px 0;
+}
+
+form .submit input {
+  height: 30px;
+  width: 80px;
+  display: block;
+  margin: 40px auto;
+}
+
+form input:focus {
+  color: blue;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  margin: 30px;
+  padding: 0;
+  overflow: hidden;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+footer li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+footer li a:hover {
+  background-color: rgb(105, 162, 215);
+  color: white;
+}
+
+footer p {
+  font-size: 17px;
+  color: rgb(96, 94, 94);
+}
