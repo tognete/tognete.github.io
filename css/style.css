@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 80px;
 }
-.post-header h1 {
+#post-header h1 {
   font-size: 50px;
 }
 a {
@@ -90,7 +90,23 @@ header {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.post-header h1, .post-header h2, .post-header span {
+#home-header {
+  background-image: url('../img/home-bg.jpg');
+}
+
+#about-header {
+  background-image: url('../img/about-bg.jpg');
+}
+
+#post-header {
+  background-image: url('../img/post-bg.jpg');
+}
+
+#contact-header {
+  background-image: url('../img/contact-bg.jpg');
+}
+
+#post-header h1, #post-header h2, #post-header span {
   display: block;
   width: 40%;
   text-align: left;
@@ -157,7 +173,6 @@ footer {
 footer ul {
   margin: 30px;
   padding: 0;
-  overflow: hidden;
 }
 
 footer li {
